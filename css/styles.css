@@ -52,7 +52,15 @@
     --bs-body-color: #212529;
     --bs-body-bg: #fff;
 }
-
+.glass-box{
+    background: rgba(254, 206, 115, 0.39);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.8px);
+    -webkit-backdrop-filter: blur(0.8px);
+    border: 1px solid rgba(254, 206, 115, 0.24);
+    letter-spacing: 1px;
+}
 *,
 *::before,
 *::after {
